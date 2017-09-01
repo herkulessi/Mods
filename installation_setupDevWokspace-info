@@ -1,1 +1,130 @@
+gradlew setupDevWorkspace -info
+Starting Build
+Settings evaluated using settings file 'D:\master\settings.gradle'.
+Projects loaded. Root project using build file 'D:\MOD\build.gradle'.
+Included projects: [root project 'MOD']
+Evaluating root project 'MOD' using build file 'D:\MOD\build.gradle'.
+#################################################
+         ForgeGradle 2.0-SNAPSHOT
+  https://github.com/MinecraftForge/ForgeGradle
+#################################################
+               Powered by MCP 9.10
+             http://modcoderpack.com
+         by: Searge, ProfMobius, Fesh0r,
+         R4wk, ZeuX, IngisKahn, bspkrs
+#################################################
+file or directory 'D:\MOD\src\api\resources', not found
+All projects evaluated.
+Selected primary task 'setupDevWorkspace' from project :
+Tasks to be executed: [task ':deobfCompileDummyTask', task ':getVersionJson', task ':extractUserdev', task ':downloadClient', task ':downloadServer', task ':splitServerJar', task ':mergeJars', task ':applyBinaryPatches', task ':extractDependencyATs', task ':extractMcpData', task ':extractMcpMappings', task ':genSrgs', task ':deobfMcMCP', task ':deobfProvidedDummyTask', task ':extractNatives', task ':getAssetIndex', task ':getAssets', task ':makeStart', task ':setupDevWorkspace']
+:deobfCompileDummyTask (Thread[main,5,main]) started.
+:deobfCompileDummyTask
+Executing task ':deobfCompileDummyTask' (up-to-date check took 0.003 secs) due to:
+  Task has not declared any outputs.
+:deobfCompileDummyTask (Thread[main,5,main]) completed. Took 0.04 secs.
+:getVersionJson (Thread[main,5,main]) started.
+:getVersionJson
+Executing task ':getVersionJson' (up-to-date check took 0.021 secs) due to:
+  Task.upToDateWhen is false.
+:getVersionJson (Thread[main,5,main]) completed. Took 0.308 secs.
+:extractUserdev (Thread[main,5,main]) started.
+:extractUserdev
+Skipping task ':extractUserdev' as it is up-to-date (took 0.053 secs).
+:extractUserdev UP-TO-DATE
+:extractUserdev (Thread[main,5,main]) completed. Took 0.072 secs.
+:downloadClient (Thread[main,5,main]) started.
+:downloadClient
+Skipping task ':downloadClient' as task onlyIf is false.
+:downloadClient SKIPPED
+:downloadClient (Thread[main,5,main]) completed. Took 0.247 secs.
+:downloadServer (Thread[main,5,main]) started.
+:downloadServer
+Skipping task ':downloadServer' as task onlyIf is false.
+:downloadServer SKIPPED
+:downloadServer (Thread[main,5,main]) completed. Took 0.327 secs.
+:splitServerJar (Thread[main,5,main]) started.
+:splitServerJar
+Skipping task ':splitServerJar' as task onlyIf is false.
+:splitServerJar SKIPPED
+:splitServerJar (Thread[main,5,main]) completed. Took 1.417 secs.
+:mergeJars (Thread[main,5,main]) started.
+:mergeJars
+Skipping task ':mergeJars' as task onlyIf is false.
+:mergeJars SKIPPED
+:mergeJars (Thread[main,5,main]) completed. Took 0.535 secs.
+:applyBinaryPatches (Thread[main,5,main]) started.
+:applyBinaryPatches
+Skipping task ':applyBinaryPatches' as task onlyIf is false.
+:applyBinaryPatches SKIPPED
+:applyBinaryPatches (Thread[main,5,main]) completed. Took 0.593 secs.
+:extractDependencyATs (Thread[main,5,main]) started.
+:extractDependencyATs
+Skipping task ':extractDependencyATs' as task onlyIf is false.
+:extractDependencyATs SKIPPED
+:extractDependencyATs (Thread[main,5,main]) completed. Took 0.023 secs.
+:extractMcpData (Thread[main,5,main]) started.
+:extractMcpData
+Skipping task ':extractMcpData' as task onlyIf is false.
+:extractMcpData SKIPPED
+:extractMcpData (Thread[main,5,main]) completed. Took 0.106 secs.
+:extractMcpMappings (Thread[main,5,main]) started.
+:extractMcpMappings
+Skipping task ':extractMcpMappings' as task onlyIf is false.
+:extractMcpMappings SKIPPED
+:extractMcpMappings (Thread[main,5,main]) completed. Took 0.122 secs.
+:genSrgs (Thread[main,5,main]) started.
+:genSrgs
+Skipping task ':genSrgs' as task onlyIf is false.
+:genSrgs SKIPPED
+:genSrgs (Thread[main,5,main]) completed. Took 0.373 secs.
+:deobfMcMCP (Thread[main,5,main]) started.
+:deobfMcMCP
+Skipping task ':deobfMcMCP' as task onlyIf is false.
+:deobfMcMCP SKIPPED
+:deobfMcMCP (Thread[main,5,main]) completed. Took 0.749 secs.
+:deobfProvidedDummyTask (Thread[main,5,main]) started.
+:deobfProvidedDummyTask
+Executing task ':deobfProvidedDummyTask' (up-to-date check took 0.001 secs) due to:
+  Task has not declared any outputs.
+:deobfProvidedDummyTask (Thread[main,5,main]) completed. Took 0.016 secs.
+:extractNatives (Thread[main,5,main]) started.
+:extractNatives
+Skipping task ':extractNatives' as task onlyIf is false.
+:extractNatives SKIPPED
+:extractNatives (Thread[main,5,main]) completed. Took 0.428 secs.
+:getAssetIndex (Thread[main,5,main]) started.
+:getAssetIndex
+Executing task ':getAssetIndex' (up-to-date check took 0.001 secs) due to:
+  Task.upToDateWhen is false.
+:getAssetIndex UP-TO-DATE
+:getAssetIndex (Thread[main,5,main]) completed. Took 0.863 secs.
+:getAssets (Thread[main,5,main]) started.
+:getAssets
+Executing task ':getAssets' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+Current status: 502/734   68%
+:getAssets (Thread[main,5,main]) completed. Took 2.169 secs.
+:makeStart (Thread[main,5,main]) started.
+:makeStart
+No cache file found.
+Executing task ':makeStart' (up-to-date check took 0.003 secs) due to:
+  No history is available.
+:makeStart FAILED
+:makeStart (Thread[main,5,main]) completed. Took 0.506 secs.
 
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':makeStart'.
+> Unable to find a javac compiler;
+com.sun.tools.javac.Main is not on the classpath.
+Perhaps JAVA_HOME does not point to the JDK.
+It is currently set to "C:\Program Files\Java\jre1.8.0_73"
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 16.099 secs
+Stopped 0 compiler daemon(s).
